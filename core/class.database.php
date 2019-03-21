@@ -3,10 +3,10 @@
 class ManageDatabase {
 
 	protected $db_conn;
-	protected $db_host = 'sql3.freemysqlhosting.net';
-    protected $db_name = 'sql3276915';
-    protected $db_user = 'sql3276915';
-    protected $db_pass = 'mpHdpvAhMm';
+	protected $db_host = 'HOSTNAME';
+    protected $db_name = 'DBNAME';
+    protected $db_user = 'USERNAME';
+    protected $db_pass = 'PASSWORD';
 
 
 

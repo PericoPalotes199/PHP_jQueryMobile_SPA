@@ -6,11 +6,11 @@ if($_POST){
 
 	$userid = trim($_POST['userid']);
 	$param = array('first' => trim($_POST['first']),
-						'last'  => trim($_POST['last']),
-						'username' => trim($_POST['username']),
-						'password' => trim($_POST['password']),
-						'email' => trim($_POST['email']),
-						'userlevel' => 'user');
+			'last'  => trim($_POST['last']),
+			'username' => trim($_POST['username']),
+			'password' => trim($_POST['password']),
+			'email' => trim($_POST['email']),
+			'userlevel' => 'user');
 	$result = $init->editUsers($userid,$param);
 
 	if($result >= 0){
